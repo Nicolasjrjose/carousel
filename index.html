@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Carousel Slideshow</title>
+    <link rel="stylesheet" href="main.css">
+</head>    
+<body>
+ 
+<div class="galleryContainer">
+    <div class="slideShowContainer" onmouseover="pauseSlides()" onmouseout="playSlides()">
+        <div id="playPauseBtn" ></div>
+        <div id="playPausePauseBtn"></div>
+        
+        <div class="leftArrow" onclick="plusSlides(-1)"><span class="arrow arrowLeft"></span></div>
+        <div class="rightArrow" onclick="plusSlides(1)"><span class="arrow arrowRight"></span></div>
+        
+        <div class="imageHolder">
+            <img src="img1.jpg">            
+        </div>
+        
+        <div class="imageHolder">
+            <img src="img2.jpg">            
+        </div> 
+        
+        <div class="imageHolder">
+            <img src="img3.jpg">            
+        </div>
+        
+        <div class="imageHolder">
+            <img src="img4.jpg">            
+        </div>
+        
+        <div class="imageHolder">
+            <img src="img5.jpg">
+                                    
+                                                
+        </div>           
+    </div>
+    <div id="dotsContainer"></div> 
+</div>       
+    
+    
+    
+    
+<script src="script.js"></script>    
+    
+    
+</body>    
+</html>
